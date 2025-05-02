@@ -4,5 +4,6 @@
   "advancements.unpack_wool_advancement.title": "Unpack Wool Advancement",
   "item.tames_hodpod.dream_catcher.description_0": "A Simple Dream catcher, an ancient tool that changes everyday.",
   "advancements.dream_catcher_unlock.title": "Dream Catcher Unlock",
-  "item.tames_hodpod.dream_catcher": "Dream Catcher"
+  "item.tames_hodpod.dream_catcher": "Dream Catcher",
+  "item.tames_hodpod.dream_catcher.description_1": "§8§oHold [SHIFT] for more info on this item..."
 }

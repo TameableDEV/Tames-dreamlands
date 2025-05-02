@@ -22,5 +22,6 @@ public class DreamCatcherItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
 		list.add(Component.translatable("item.tames_hodpod.dream_catcher.description_0"));
+		list.add(Component.translatable("item.tames_hodpod.dream_catcher.description_1"));
 	}
 }

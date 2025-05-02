@@ -107,6 +107,20 @@
         ]
       },
       "path": "~/Advancements/Recipes/AdvancementProcedures"
+    },
+    {
+      "name": "DreamCatcherInfoProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_catcher_info_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tameable/tameshodpod/procedures/DreamCatcherInfoProcedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/DreamLand/itemsandblocks/itemsAndBlocksProcedures"
     }
   ],
   "variable_elements": [],
@@ -120,7 +134,8 @@
       "advancements.unpack_wool_advancement.title": "Unpack Wool Advancement",
       "item.tames_hodpod.dream_catcher.description_0": "A Simple Dream catcher, an ancient tool that changes everyday.",
       "advancements.dream_catcher_unlock.title": "Dream Catcher Unlock",
-      "item.tames_hodpod.dream_catcher": "Dream Catcher"
+      "item.tames_hodpod.dream_catcher": "Dream Catcher",
+      "item.tames_hodpod.dream_catcher.description_1": "§8§oHold [SHIFT] for more info on this item..."
     }
   },
   "foldersRoot": {
@@ -145,7 +160,12 @@
         "children": [
           {
             "name": "itemsandblocks",
-            "children": []
+            "children": [
+              {
+                "name": "itemsAndBlocksProcedures",
+                "children": []
+              }
+            ]
           },
           {
             "name": "recipes",
@@ -156,22 +176,30 @@
       {
         "name": "Recipe changes",
         "children": []
+      },
+      {
+        "name": "JEI Stuff",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "tames_hodpod",
     "modName": "Tame\u0027s HodgePodge",
-    "version": "1.0.0",
-    "author": "littl, MCreator",
+    "version": "0.1 Alpha",
+    "description": "A Mod Made by Tameable, in this mod there is a hodgepodge of changes and additions to your Minecraft Gameplay! There is no General Theme, but Sometimes things from this mod may be added to my future mods!",
+    "author": "Tameable, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Made with love and Care as well help from MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.tameable.tameshodpod"
   },
   "mcreatorVersion": 202400452410

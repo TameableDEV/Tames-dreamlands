@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="MIT License"
 
 [[mods]]
 modId="tames_hodpod"
-version="1.0.0"
+version="0.1"
 displayName="Tame's HodgePodge"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="littl, MCreator"
+credits="Made with love and Care as well help from MCreator - https://mcreator.net/about"
+authors="Tameable, MCreator"
+description="A Mod Made by Tameable, in this mod there is a hodgepodge of changes and additions to your Minecraft Gameplay! There is no General Theme, but Sometimes things from this mod may be added to my future mods!"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -28,6 +29,12 @@ ordering="AFTER"
 side="BOTH"
 
 
+[[dependencies.tames_hodpod]]
+modId="jei"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 
 
 [[mixins]]
