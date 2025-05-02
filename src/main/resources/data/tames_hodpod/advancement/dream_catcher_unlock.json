@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "dream_catcher_unlock_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "tames_hodpod:dream_catcher_recipe"
+    ]
+  },
+  "parent": "tames_hodpod:unpack_wool_advancement"
+}

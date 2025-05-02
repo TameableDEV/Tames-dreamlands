@@ -1,1 +1,8 @@
-{}
+{
+  "advancements.unpack_wool_advancement.descr": "You shouldn\u0027t read this, its for recipes!",
+  "advancements.dream_catcher_unlock.descr": "Unlock\u0027s the Dream Catcher",
+  "advancements.unpack_wool_advancement.title": "Unpack Wool Advancement",
+  "item.tames_hodpod.dream_catcher.description_0": "A Simple Dream catcher, an ancient tool that changes everyday.",
+  "advancements.dream_catcher_unlock.title": "Dream Catcher Unlock",
+  "item.tames_hodpod.dream_catcher": "Dream Catcher"
+}
