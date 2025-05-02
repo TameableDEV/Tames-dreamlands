@@ -29,12 +29,6 @@ ordering="AFTER"
 side="BOTH"
 
 
-[[dependencies.tames_hodpod]]
-modId="jei"
-type="optional"
-versionRange="[0,)"
-ordering="NONE"
-side="BOTH"
 
 
 [[mixins]]

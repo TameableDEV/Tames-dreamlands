@@ -176,10 +176,6 @@
       {
         "name": "Recipe changes",
         "children": []
-      },
-      {
-        "name": "JEI Stuff",
-        "children": []
       }
     ]
   },
@@ -195,9 +191,7 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "jei"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "Made with love and Care as well help from MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.tameable.tameshodpod"
