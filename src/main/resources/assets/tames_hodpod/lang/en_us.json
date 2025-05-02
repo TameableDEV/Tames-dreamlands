@@ -1,9 +1,11 @@
 {
   "advancements.unpack_wool_advancement.descr": "You shouldn\u0027t read this, its for recipes!",
+  "block.tames_hodpod.dream_chest": "Dream Chest",
+  "block.tames_hodpod.dream_chest.description_0": "A Chest Made with the Will of the Dreams... Allowing Fiction to become Reality...",
   "advancements.dream_catcher_unlock.descr": "Unlock\u0027s the Dream Catcher",
   "advancements.unpack_wool_advancement.title": "Unpack Wool Advancement",
   "item.tames_hodpod.dream_catcher.description_0": "A Simple Dream catcher, an ancient tool that changes everyday.",
   "advancements.dream_catcher_unlock.title": "Dream Catcher Unlock",
   "item.tames_hodpod.dream_catcher": "Dream Catcher",
-  "item.tames_hodpod.dream_catcher.description_1": "§8§oHold [SHIFT] for more info on this item..."
+  "item.tames_hodpod.dream_catcher.description_1": "§8§oHold §r§l§o§6[SHIFT] §r§8§ofor more info on this item..."
 }

@@ -3,8 +3,10 @@ package net.tameable.tameshodpod;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.tameable.tameshodpod.network.TamesHodpodModVariables;
 import net.tameable.tameshodpod.init.TamesHodpodModTabs;
 import net.tameable.tameshodpod.init.TamesHodpodModItems;
+import net.tameable.tameshodpod.init.TamesHodpodModBlocks;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
@@ -39,9 +41,12 @@ public class TamesHodpodMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
+		TamesHodpodModBlocks.REGISTRY.register(modEventBus);
+
 		TamesHodpodModItems.REGISTRY.register(modEventBus);
 
 		TamesHodpodModTabs.REGISTRY.register(modEventBus);
+		TamesHodpodModVariables.ATTACHMENT_TYPES.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

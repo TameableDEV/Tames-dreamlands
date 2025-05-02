@@ -23,6 +23,8 @@ public class TamesHodpodModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TamesHodpodModItems.DREAM_CATCHER.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(TamesHodpodModBlocks.DREAM_CHEST.get().asItem());
 		}
 	}
 }

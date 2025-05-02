@@ -118,24 +118,63 @@
         "files": [
           "src/main/java/net/tameable/tameshodpod/procedures/DreamCatcherInfoProcedureProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
       },
       "path": "~/DreamLand/itemsandblocks/itemsAndBlocksProcedures"
+    },
+    {
+      "name": "DreamChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tames_hodpod/models/item/dream_chest.json",
+          "src/main/resources/data/tames_hodpod/loot_table/blocks/dream_chest.json",
+          "src/main/java/net/tameable/tameshodpod/block/DreamChestBlock.java",
+          "src/main/resources/assets/tames_hodpod/models/block/dream_chest.json",
+          "src/main/resources/assets/tames_hodpod/blockstates/dream_chest.json"
+        ]
+      },
+      "path": "~/DreamLand/itemsandblocks/DreamChest"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "DreamChestTier",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:DreamChest"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "advancements.unpack_wool_advancement.descr": "You shouldn\u0027t read this, its for recipes!",
+      "block.tames_hodpod.dream_chest": "Dream Chest",
+      "block.tames_hodpod.dream_chest.description_0": "A Chest Made with the Will of the Dreams... Allowing Fiction to become Reality...",
       "advancements.dream_catcher_unlock.descr": "Unlock\u0027s the Dream Catcher",
       "advancements.unpack_wool_advancement.title": "Unpack Wool Advancement",
       "item.tames_hodpod.dream_catcher.description_0": "A Simple Dream catcher, an ancient tool that changes everyday.",
       "advancements.dream_catcher_unlock.title": "Dream Catcher Unlock",
       "item.tames_hodpod.dream_catcher": "Dream Catcher",
-      "item.tames_hodpod.dream_catcher.description_1": "§8§oHold [SHIFT] for more info on this item..."
+      "item.tames_hodpod.dream_catcher.description_1": "§8§oHold §r§l§o§6[SHIFT] §r§8§ofor more info on this item..."
     }
   },
   "foldersRoot": {
@@ -163,6 +202,10 @@
             "children": [
               {
                 "name": "itemsAndBlocksProcedures",
+                "children": []
+              },
+              {
+                "name": "DreamChest",
                 "children": []
               }
             ]
