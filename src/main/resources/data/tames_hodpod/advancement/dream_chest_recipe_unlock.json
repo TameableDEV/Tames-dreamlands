@@ -1,13 +1,13 @@
 {
   "criteria": {
-    "dream_catcher_unlock_0": {
+    "dream_chest_recipe_unlock_0": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
     "experience": 0,
     "recipes": [
-      "tames_hodpod:dream_catcher_recipe"
+      "tames_hodpod:dream_chest_recipe"
     ]
   }
 }

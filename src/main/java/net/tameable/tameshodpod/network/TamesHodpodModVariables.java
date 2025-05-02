@@ -96,7 +96,7 @@ public class TamesHodpodModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "tames_hodpod_mapvars";
-		public double DreamChestTier = 0;
+		public double DCupgradetier = 0.0;
 
 		public static MapVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			MapVariables data = new MapVariables();
@@ -105,12 +105,12 @@ public class TamesHodpodModVariables {
 		}
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			DreamChestTier = nbt.getDouble("DreamChestTier");
+			DCupgradetier = nbt.getDouble("DCupgradetier");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			nbt.putDouble("DreamChestTier", DreamChestTier);
+			nbt.putDouble("DCupgradetier", DCupgradetier);
 			return nbt;
 		}
 

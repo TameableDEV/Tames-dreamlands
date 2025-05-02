@@ -39,6 +39,7 @@ public class DreamCatcherInfoProcedureProcedure {
 			tooltip.add(Component.literal("\u00A78Create a\u00A7r \u00A7l\u00A76Dream Chest\u00A7r \u00A78to either transfer items between dream and Reality."));
 		} else {
 			tooltip.add(Component.literal("\u00A78\u00A7oHold \u00A7r\u00A7l\u00A7o\u00A76[SHIFT] \u00A7r\u00A78\u00A7ofor more info on this item..."));
+			tooltip.add(Component.literal("\u00A78\u00A7oHold \u00A7r\u00A7l\u00A7o\u00A76[SHIFT] \u00A7r\u00A78\u00A7oand Press \u00A7r\u00A7l\u00A7o\u00A76[Right Click] \u00A7r\u00A78\u00A7oto see upgrades and abilities..."));
 		}
 	}
 }

@@ -147,14 +147,116 @@
         ]
       },
       "path": "~/DreamLand/itemsandblocks/DreamChest"
+    },
+    {
+      "name": "DreamChestInfoProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_chest_info_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tameable/tameshodpod/procedures/DreamChestInfoProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/DreamLand/itemsandblocks/itemsAndBlocksProcedures"
+    },
+    {
+      "name": "DreamChestRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_chest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tames_hodpod/recipe/dream_chest_recipe.json"
+        ]
+      },
+      "path": "~/DreamLand/recipes"
+    },
+    {
+      "name": "DreamChestRecipeUnlock",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_chest_recipe_unlock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tames_hodpod/advancement/dream_chest_recipe_unlock.json"
+        ]
+      },
+      "path": "~/Advancements/Recipes"
+    },
+    {
+      "name": "DreamChestAdvancementChecker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_chest_advancement_checker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tameable/tameshodpod/procedures/DreamChestAdvancementCheckerProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Advancements/Recipes/AdvancementProcedures"
+    },
+    {
+      "name": "ModRootAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_root_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tames_hodpod/advancement/mod_root_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DreamLandFirstEntry",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_land_first_entry",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tames_hodpod/advancement/dream_land_first_entry.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TheMagicOfSummons",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_magic_of_summons",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tames_hodpod/advancement/the_magic_of_summons.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [
     {
-      "name": "DreamChestTier",
+      "name": "DCupgradetier",
       "type": "number",
       "scope": "map",
-      "value": "0"
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
@@ -168,13 +270,21 @@
     "en_us": {
       "advancements.unpack_wool_advancement.descr": "You shouldn\u0027t read this, its for recipes!",
       "block.tames_hodpod.dream_chest": "Dream Chest",
-      "block.tames_hodpod.dream_chest.description_0": "A Chest Made with the Will of the Dreams... Allowing Fiction to become Reality...",
-      "advancements.dream_catcher_unlock.descr": "Unlock\u0027s the Dream Catcher",
+      "advancements.mod_root_advancement.title": "Tame\u0027s HodgePodge",
+      "advancements.dream_chest_recipe_unlock.title": "Dream Chest Recipe Unlock",
+      "advancements.the_magic_of_summons.title": "Guess Your Never going alone Anymore!",
       "advancements.unpack_wool_advancement.title": "Unpack Wool Advancement",
       "item.tames_hodpod.dream_catcher.description_0": "A Simple Dream catcher, an ancient tool that changes everyday.",
+      "item.tames_hodpod.dream_catcher.description_1": "§8§oHold §r§l§o§6[SHIFT] §r§8§ofor more info on this item...",
+      "advancements.mod_root_advancement.descr": "The Humble Beginnings to this mod, with many things to find... always check advancements if your stuck!",
+      "advancements.dream_land_first_entry.descr": "Have A Dream Catcher in your inventory and Wake up in a strange place...",
+      "advancements.dream_chest_recipe_unlock.descr": "Unlocks Dream Chest and Tiers",
+      "block.tames_hodpod.dream_chest.description_0": "A Chest Made with the Will of the Dreams... Allowing Fiction to become Reality...",
+      "advancements.dream_catcher_unlock.descr": "Unlock\u0027s the Dream Catcher",
+      "advancements.the_magic_of_summons.descr": "Find/Craft your first summoning item, allowing you to have even better Teammates!",
       "advancements.dream_catcher_unlock.title": "Dream Catcher Unlock",
-      "item.tames_hodpod.dream_catcher": "Dream Catcher",
-      "item.tames_hodpod.dream_catcher.description_1": "§8§oHold §r§l§o§6[SHIFT] §r§8§ofor more info on this item..."
+      "advancements.dream_land_first_entry.title": "I don\u0027t think we\u0027re in the Overworld anymore!",
+      "item.tames_hodpod.dream_catcher": "Dream Catcher"
     }
   },
   "foldersRoot": {

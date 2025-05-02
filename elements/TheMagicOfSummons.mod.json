@@ -2,24 +2,22 @@
   "_fv": 73,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Dream Catcher Unlock",
-    "achievementDescription": "Unlock's the Dream Catcher",
+    "achievementName": "Guess Your Never going alone Anymore!",
+    "achievementDescription": "Find/Craft your first summoning item, allowing you to have even better Teammates!",
     "achievementIcon": {
-      "value": "CUSTOM:DreamCatcher"
+      "value": "Blocks.SKULL#3"
     },
     "background": "Default",
-    "disableDisplay": true,
+    "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [
-      "DreamCatcherRecipe"
-    ],
+    "rewardRecipes": [],
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "No parent: root"
+      "value": "CUSTOM:ModRootAdvancement"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
   }
