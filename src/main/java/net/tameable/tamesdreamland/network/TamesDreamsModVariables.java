@@ -60,7 +60,6 @@ public class TamesDreamsModVariables {
 		public static void clonePlayer(PlayerEvent.Clone event) {
 			PlayerVariables original = event.getOriginal().getData(PLAYER_VARIABLES);
 			PlayerVariables clone = new PlayerVariables();
-			clone.DCupgradetier = original.DCupgradetier;
 			clone.DreamFoodUpgrade = original.DreamFoodUpgrade;
 			clone.DreamFlightUpgrade = original.DreamFlightUpgrade;
 			clone.DreamWakeUpUpgrade = original.DreamWakeUpUpgrade;
@@ -71,7 +70,6 @@ public class TamesDreamsModVariables {
 	}
 
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
-		public double DCupgradetier = 0.0;
 		public boolean DreamFoodUpgrade = false;
 		public boolean DreamFlightUpgrade = false;
 		public boolean DreamWakeUpUpgrade = false;
@@ -79,7 +77,6 @@ public class TamesDreamsModVariables {
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putDouble("DCupgradetier", DCupgradetier);
 			nbt.putBoolean("DreamFoodUpgrade", DreamFoodUpgrade);
 			nbt.putBoolean("DreamFlightUpgrade", DreamFlightUpgrade);
 			nbt.putBoolean("DreamWakeUpUpgrade", DreamWakeUpUpgrade);
@@ -88,7 +85,6 @@ public class TamesDreamsModVariables {
 
 		@Override
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
-			DCupgradetier = nbt.getDouble("DCupgradetier");
 			DreamFoodUpgrade = nbt.getBoolean("DreamFoodUpgrade");
 			DreamFlightUpgrade = nbt.getBoolean("DreamFlightUpgrade");
 			DreamWakeUpUpgrade = nbt.getBoolean("DreamWakeUpUpgrade");

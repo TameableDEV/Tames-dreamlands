@@ -12,21 +12,15 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class DreamCatcherItem extends Item {
-	public DreamCatcherItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
+public class HubTeleportItem extends Item {
+	public HubTeleportItem() {
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
 	}
 
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
-		list.add(Component.translatable("item.tames_dreams.dream_catcher.description_0"));
+		list.add(Component.translatable("item.tames_dreams.hub_teleport.description_0"));
 	}
 }

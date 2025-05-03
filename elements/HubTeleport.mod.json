@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "upgradereset",
+    "texture": "dreamchestupgrade_template",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Dream Upgrade Reset",
+    "name": "Hub Teleport",
     "rarity": "EPIC",
     "creativeTabs": [
       {
@@ -16,21 +16,21 @@
     ],
     "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 60,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "§c§l !!! WARNING, THIS WILL RESET ANY UPGRADES IN THE DREAM CATCHER! !!!"
+        "Teleports in and out of the hub"
       ]
     },
     "glowCondition": {
@@ -53,7 +53,7 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat",
+    "animation": "none",
     "isMusicDisc": false,
     "musicDiscMusic": {
       "value": ""

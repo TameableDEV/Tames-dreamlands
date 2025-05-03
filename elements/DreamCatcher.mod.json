@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§6§l§oThe Dream Catcher... The First steps to mastering dreams..."
+      ]
     },
     "glowCondition": {
       "fixedValue": true

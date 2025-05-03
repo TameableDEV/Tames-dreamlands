@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tames_dreams:block/dreamanchorgray_bottom",
+    "up": "tames_dreams:block/dreamanchorgray_top",
+    "north": "tames_dreams:block/dreamanchorgrey_skills",
+    "east": "tames_dreams:block/dreamanchorgray_inventory",
+    "south": "tames_dreams:block/dreamanchorgray_settings",
+    "west": "tames_dreams:block/dreamanchorgray_tiers",
+    "particle": "tames_dreams:block/dreamanchorgray_bottom"
+  },
+  "render_type": "solid"
+}

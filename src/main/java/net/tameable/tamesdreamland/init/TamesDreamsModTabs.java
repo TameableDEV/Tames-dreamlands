@@ -23,18 +23,16 @@ public class TamesDreamsModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TamesDreamsModItems.DREAM_CATCHER.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-			tabData.accept(TamesDreamsModBlocks.DREAM_CHEST.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(TamesDreamsModItems.DREAM_FOOD_UPGRADE.get());
 			tabData.accept(TamesDreamsModItems.DREAM_FLIGHT_UPGRADE.get());
 			tabData.accept(TamesDreamsModItems.WAKE_UP_BOOST_UPGRADE.get());
-			tabData.accept(TamesDreamsModItems.DREAM_CHEST_TIER_1.get());
-			tabData.accept(TamesDreamsModItems.DREAM_CHEST_TIER_2.get());
-			tabData.accept(TamesDreamsModItems.DREAM_CHEST_TIER_3.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
 			if (tabData.hasPermissions()) {
-				tabData.accept(TamesDreamsModItems.DREAM_UPGRADES_RESET.get());
+				tabData.accept(TamesDreamsModItems.DREAM_CHEST_TIER_1.get());
+				tabData.accept(TamesDreamsModBlocks.DREAM_ANCHOR.get().asItem());
+				tabData.accept(TamesDreamsModBlocks.DREAM_ANCHOR_GREY.get().asItem());
+				tabData.accept(TamesDreamsModItems.HUB_TELEPORT.get());
 			}
 		}
 	}

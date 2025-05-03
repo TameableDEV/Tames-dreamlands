@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tames_dreams:item/dcupgrade_tier1"
+    "layer0": "tames_dreams:item/upgradereset"
   }
 }

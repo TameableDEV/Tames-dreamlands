@@ -14,19 +14,6 @@
       "path": "~/Recipe changes"
     },
     {
-      "name": "UnpackWoolAdvancement",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unpack_wool_advancement",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tames_dreams/advancement/unpack_wool_advancement.json"
-        ]
-      },
-      "path": "~/Advancements/Recipes"
-    },
-    {
       "name": "DreamCatcher",
       "type": "item",
       "compiles": true,
@@ -34,11 +21,11 @@
       "registry_name": "dream_catcher",
       "metadata": {
         "files": [
-          "src/main/java/net/tameable/tamesdreamland/item/DreamCatcherItem.java",
-          "src/main/resources/assets/tames_dreams/models/item/dream_catcher.json"
+          "src/main/resources/assets/tames_dreams/models/item/dream_catcher.json",
+          "src/main/java/net/tameable/tamesdreamland/item/DreamCatcherItem.java"
         ]
       },
-      "path": "~/DreamLand/itemsandblocks"
+      "path": "~/DreamLand/itemsandblocks/Items"
     },
     {
       "name": "DreamCatcherRecipe",
@@ -54,141 +41,6 @@
       "path": "~/DreamLand/recipes"
     },
     {
-      "name": "DreamCatcherUnlock",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_catcher_unlock",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tames_dreams/advancement/dream_catcher_unlock.json"
-        ]
-      },
-      "path": "~/Advancements/Recipes"
-    },
-    {
-      "name": "DreamCatcherUnlockProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_catcher_unlock_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/tameable/tamesdreamland/procedures/DreamCatcherUnlockProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Advancements/Recipes/AdvancementProcedures"
-    },
-    {
-      "name": "WoolUnpackExtraColors",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wool_unpack_extra_colors",
-      "metadata": {
-        "files": [
-          "src/main/java/net/tameable/tamesdreamland/procedures/WoolUnpackExtraColorsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Advancements/Recipes/AdvancementProcedures"
-    },
-    {
-      "name": "DreamChest",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_chest",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tames_dreams/blockstates/dream_chest.json",
-          "src/main/java/net/tameable/tamesdreamland/block/DreamChestBlock.java",
-          "src/main/resources/data/tames_dreams/loot_table/blocks/dream_chest.json",
-          "src/main/resources/assets/tames_dreams/models/item/dream_chest.json",
-          "src/main/resources/assets/tames_dreams/models/block/dream_chest.json"
-        ]
-      },
-      "path": "~/DreamLand/itemsandblocks/DreamChest"
-    },
-    {
-      "name": "DreamChestInfoProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_chest_info_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/tameable/tamesdreamland/procedures/DreamChestInfoProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "tooltip",
-            "type": "tooltip"
-          }
-        ]
-      },
-      "path": "~/DreamLand/itemsandblocks/itemsAndBlocksProcedures"
-    },
-    {
-      "name": "DreamChestRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_chest_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tames_dreams/recipe/dream_chest_recipe.json"
-        ]
-      },
-      "path": "~/DreamLand/recipes"
-    },
-    {
-      "name": "DreamChestRecipeUnlock",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_chest_recipe_unlock",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tames_dreams/advancement/dream_chest_recipe_unlock.json"
-        ]
-      },
-      "path": "~/Advancements/Recipes"
-    },
-    {
-      "name": "DreamChestAdvancementChecker",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_chest_advancement_checker",
-      "metadata": {
-        "files": [
-          "src/main/java/net/tameable/tamesdreamland/procedures/DreamChestAdvancementCheckerProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/Advancements/Recipes/AdvancementProcedures"
-    },
-    {
       "name": "ModRootAdvancement",
       "type": "achievement",
       "compiles": true,
@@ -197,19 +49,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/tames_dreams/advancement/mod_root_advancement.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
-      "name": "DreamLandFirstEntry",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_land_first_entry",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/tames_dreams/advancement/dream_land_first_entry.json"
         ]
       },
       "path": "~/Advancements"
@@ -245,7 +84,7 @@
           "src/main/java/net/tameable/tamesdreamland/item/DreamFoodUpgradeItem.java"
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades"
+      "path": "~/DreamLand/DreamUpgrades"
     },
     {
       "name": "DreamFlightUpgrade",
@@ -255,11 +94,11 @@
       "registry_name": "dream_flight_upgrade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tames_dreams/models/item/dream_flight_upgrade.json",
-          "src/main/java/net/tameable/tamesdreamland/item/DreamFlightUpgradeItem.java"
+          "src/main/java/net/tameable/tamesdreamland/item/DreamFlightUpgradeItem.java",
+          "src/main/resources/assets/tames_dreams/models/item/dream_flight_upgrade.json"
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades"
+      "path": "~/DreamLand/DreamUpgrades"
     },
     {
       "name": "WakeUpBoostUpgrade",
@@ -269,11 +108,11 @@
       "registry_name": "wake_up_boost_upgrade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tames_dreams/models/item/wake_up_boost_upgrade.json",
-          "src/main/java/net/tameable/tamesdreamland/item/WakeUpBoostUpgradeItem.java"
+          "src/main/java/net/tameable/tamesdreamland/item/WakeUpBoostUpgradeItem.java",
+          "src/main/resources/assets/tames_dreams/models/item/wake_up_boost_upgrade.json"
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades"
+      "path": "~/DreamLand/DreamUpgrades"
     },
     {
       "name": "DreamChestTier1",
@@ -287,7 +126,7 @@
           "src/main/java/net/tameable/tamesdreamland/item/DreamChestTier1Item.java"
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades"
+      "path": "~/DreamLand/DreamUpgrades"
     },
     {
       "name": "DreamCatcherDisplayUpgrades",
@@ -301,20 +140,6 @@
         ]
       },
       "path": "~/Keybinds"
-    },
-    {
-      "name": "DreamUpgradesReset",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_upgrades_reset",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tames_dreams/models/item/dream_upgrades_reset.json",
-          "src/main/java/net/tameable/tamesdreamland/item/DreamUpgradesResetItem.java"
-        ]
-      },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades"
     },
     {
       "name": "DreamUpgradeResetProcedure",
@@ -349,7 +174,7 @@
           }
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades/DreamUpgradeProcedures"
+      "path": "~/DreamLand/DreamUpgrades/DreamUpgradeProcedures"
     },
     {
       "name": "FoodUpgradeUse",
@@ -384,7 +209,7 @@
           }
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades/DreamUpgradeProcedures"
+      "path": "~/DreamLand/DreamUpgrades/DreamUpgradeProcedures"
     },
     {
       "name": "FlightUpgradeUse",
@@ -419,7 +244,7 @@
           }
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades/DreamUpgradeProcedures"
+      "path": "~/DreamLand/DreamUpgrades/DreamUpgradeProcedures"
     },
     {
       "name": "WakeUpBoostUse",
@@ -454,45 +279,65 @@
           }
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades/DreamUpgradeProcedures"
+      "path": "~/DreamLand/DreamUpgrades/DreamUpgradeProcedures"
     },
     {
-      "name": "DreamChestTier2",
+      "name": "DreamAnchor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_anchor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tames_dreams/models/block/dream_anchor.json",
+          "src/main/java/net/tameable/tamesdreamland/block/DreamAnchorBlock.java",
+          "src/main/resources/data/tames_dreams/loot_table/blocks/dream_anchor.json",
+          "src/main/resources/assets/tames_dreams/models/item/dream_anchor.json",
+          "src/main/resources/assets/tames_dreams/blockstates/dream_anchor.json"
+        ]
+      },
+      "path": "~/DreamLand/itemsandblocks/Blocks"
+    },
+    {
+      "name": "DreamAnchorGrey",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_anchor_grey",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tames_dreams/models/item/dream_anchor_grey.json",
+          "src/main/resources/assets/tames_dreams/models/block/dream_anchor_grey.json",
+          "src/main/resources/data/tames_dreams/loot_table/blocks/dream_anchor_grey.json",
+          "src/main/resources/assets/tames_dreams/blockstates/dream_anchor_grey.json",
+          "src/main/java/net/tameable/tamesdreamland/block/DreamAnchorGreyBlock.java"
+        ]
+      },
+      "path": "~/DreamLand/itemsandblocks/Blocks"
+    },
+    {
+      "name": "HubTeleport",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dream_chest_tier_2",
+      "registry_name": "hub_teleport",
       "metadata": {
         "files": [
-          "src/main/java/net/tameable/tamesdreamland/item/DreamChestTier2Item.java",
-          "src/main/resources/assets/tames_dreams/models/item/dream_chest_tier_2.json"
+          "src/main/resources/assets/tames_dreams/models/item/hub_teleport.json",
+          "src/main/java/net/tameable/tamesdreamland/item/HubTeleportItem.java"
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades"
+      "path": "~/DreamLand/Dimensions/TheHub"
     },
     {
-      "name": "DreamChestTier3",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dream_chest_tier_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tames_dreams/models/item/dream_chest_tier_3.json",
-          "src/main/java/net/tameable/tamesdreamland/item/DreamChestTier3Item.java"
-        ]
-      },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades"
-    },
-    {
-      "name": "DreamChestUpgradeUse",
+      "name": "HubTeleportRightClick",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dream_chest_upgrade_use",
+      "registry_name": "hub_teleport_right_click",
       "metadata": {
         "files": [
-          "src/main/java/net/tameable/tamesdreamland/procedures/DreamChestUpgradeUseProcedure.java"
+          "src/main/java/net/tameable/tamesdreamland/procedures/HubTeleportRightClickProcedure.java"
         ],
         "dependencies": [
           {
@@ -501,16 +346,27 @@
           }
         ]
       },
-      "path": "~/DreamLand/itemsandblocks/DreamUpgrades/DreamUpgradeProcedures"
+      "path": "~/DreamLand/Dimensions/TheHub"
+    },
+    {
+      "name": "DreamStatic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_static",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tameable/tamesdreamland/block/DreamStaticBlock.java",
+          "src/main/resources/assets/tames_dreams/models/block/dream_static.json",
+          "src/main/resources/assets/tames_dreams/models/item/dream_static.json",
+          "src/main/resources/data/tames_dreams/loot_table/blocks/dream_static.json",
+          "src/main/resources/assets/tames_dreams/blockstates/dream_static.json"
+        ]
+      },
+      "path": "~/DreamLand/Dimensions/TheHub"
     }
   ],
   "variable_elements": [
-    {
-      "name": "DCupgradetier",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0.0"
-    },
     {
       "name": "DreamFoodUpgrade",
       "type": "logic",
@@ -532,56 +388,51 @@
   ],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:DreamChest"
-    ],
     "ITEMS:mod:dreamchestupgradetags": [
       "CUSTOM:DreamChestTier1"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "key.tames_hodpod.dream_catcher_display_upgrades": "Dream Catcher: Show Upgrades",
-      "item.tames_dreams.dream_catcher": "Dream Catcher",
-      "advancements.mod_root_advancement.title": "Tameable Presents: The Dream Lands",
       "block.tames_hodpod.dream_chest": "Dream Chest",
-      "advancements.unpack_wool_advancement.descr": "You shouldn\u0027t read this, its for recipes!",
-      "advancements.dream_chest_recipe_unlock.title": "Dream Chest Recipe Unlock",
+      "advancements.mod_root_advancement.title": "Tameable Presents: The Dream Lands",
+      "item.tames_dreams.dream_catcher": "Dream Catcher",
       "item.tames_hodpod.wake_up_boost_upgrade.description_0": "§8§lNo Matter What Happens in dream land... §r§d§lAlways Wake up Fresh.",
       "item.tames_dreams.dream_flight_upgrade.description_0": "§e§lSoar through any dream land no matter what... and fall damage is no longer an issue.",
-      "advancements.unpack_wool_advancement.title": "Unpack Wool Advancement",
       "advancements.mod_root_advancement.descr": "Your Beginnings to a world unexplored... §8§l§oAlways check the Advancements to see what to do next!",
+      "block.tames_dreams.dream_static": "Dream Static",
       "item.tames_dreams.dream_flight_upgrade": "Dream Flight Upgrade",
-      "advancements.dream_chest_recipe_unlock.descr": "Unlocks Dream Chest and Tiers",
-      "item.tames_dreams.dream_chest_tier_3.description_0": "Upgrades Tier 2 Of Dream Chest to Tier 3",
-      "block.tames_dreams.dream_chest": "Dream Chest",
+      "item.tames_dreams.hub_teleport.description_0": "Teleports in and out of the hub",
       "item.tames_dreams.dream_food_upgrade.description_0": "§9§lWhen In the dream lands... never worry about hunger anymore.",
-      "item.tames_dreams.dream_chest_tier_3": "Dream Chest Tier 3",
       "block.tames_hodpod.dream_chest.description_0": "A Chest Made with the Will of the Dreams... Allowing Fiction to become Reality...",
       "item.tames_hodpod.dream_chest_tier_1": "Dream Upgrade Base",
-      "item.tames_dreams.dream_chest_tier_1": "Dream Chest Tier 1",
+      "item.tames_dreams.dream_chest_tier_1": "Dream Upgrade Reset",
       "item.tames_hodpod.dream_food_upgrade": "Dream Food Upgrade",
       "item.tames_dreams.dream_food_upgrade": "Dream Food Upgrade",
-      "item.tames_dreams.dream_chest_tier_2": "Dream Chest Tier 2",
+      "item.tames_dreams.dream_catcher.description_0": "§6§l§oThe Dream Catcher... The First steps to mastering dreams...",
       "item.tames_dreams.wake_up_boost_upgrade.description_0": "§8§lNo Matter What Happens in dream land... §r§d§lAlways Wake up Fresh.",
-      "item.tames_dreams.dream_chest_tier_1.description_0": "Upgrades the Default Dream Chest to Tier 1",
+      "item.tames_dreams.dream_chest_tier_1.description_0": "§c§l !!! WARNING, THIS WILL RESET ANY UPGRADES IN THE DREAM CATCHER! !!!",
+      "block.tames_dreams.dream_anchor_grey": "Dream Anchor",
       "item.tames_hodpod.dream_upgrades_reset": "§c§oDream Upgrade Reset",
-      "block.tames_dreams.dream_chest.description_0": "A Chest Made with the Will of the Dreams... Allowing Fiction to become Reality...",
+      "block.tames_dreams.dream_anchor": "Dream Anchor",
+      "block.tames_dreams.dream_anchor.description_0": "The Link Between Dream and Reality, Formed into a single block...",
+      "block.tames_dreams.dream_anchor_grey.description_1": "It shall guide you the way through the mod... but gray",
       "key.tames_dreams.dream_catcher_display_upgrades": "Dream Catcher: Show Upgrades",
+      "block.tames_dreams.dream_anchor.description_1": "It shall guide you the way through the mod.",
+      "block.tames_dreams.dream_anchor_grey.description_0": "The Link Between Dream and Reality, Formed into a single block...",
       "item.tames_hodpod.dream_flight_upgrade.description_0": "§e§lSoar through any dream land no matter what... and fall damage is no longer an issue.",
       "item.tames_hodpod.dream_catcher.description_0": "A Simple Dream catcher, an ancient tool that changes everyday.",
       "item.tames_hodpod.dream_catcher.description_1": "§8§oHold §r§l§o§6[SHIFT] §r§8§ofor more info on this item...",
-      "advancements.dream_land_first_entry.descr": "Have A Dream Catcher in your inventory and Wake up in a strange place...",
+      "item.tames_dreams.hub_teleport": "Hub Teleport",
+      "block.tames_dreams.dream_static.description_0": "static from your mind, unable to remember what was once here.",
       "item.tames_hodpod.dream_flight_upgrade": "Dream Flight Upgrade",
-      "item.tames_dreams.dream_chest_tier_2.description_0": "Upgrades the Tier 1 Dream Chest to Tier 2",
-      "advancements.dream_catcher_unlock.descr": "Unlock\u0027s the Dream Catcher",
-      "item.tames_dreams.dream_upgrades_reset": "§c§oDream Upgrade Reset",
       "item.tames_hodpod.dream_food_upgrade.description_0": "§9§lWhen In the dream lands... never worry about hunger anymore.",
-      "advancements.dream_catcher_unlock.title": "Dream Catcher Unlock",
-      "advancements.dream_land_first_entry.title": "I don\u0027t think we\u0027re in the Overworld anymore!",
       "item.tames_dreams.wake_up_boost_upgrade": "Wake-Up Boost Upgrade",
-      "item.tames_dreams.dream_upgrades_reset.description_0": "§c§lWARNING! IF YOU USE THIS ITEM... YOU WILL RESET ALL YOUR UPGRADES! ONLY USE IN CASE SOMETHING BREAKS!",
       "item.tames_hodpod.dream_catcher": "Dream Catcher",
       "item.tames_hodpod.wake_up_boost_upgrade": "Wake-Up Boost Upgrade",
       "item.tames_hodpod.dream_upgrades_reset.description_0": "§c§lWARNING! IF YOU USE THIS ITEM... YOU WILL RESET ALL YOUR UPGRADES! ONLY USE IN CASE SOMETHING BREAKS!"
@@ -592,17 +443,7 @@
     "children": [
       {
         "name": "Advancements",
-        "children": [
-          {
-            "name": "Recipes",
-            "children": [
-              {
-                "name": "AdvancementProcedures",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "name": "DreamLand",
@@ -615,23 +456,36 @@
                 "children": []
               },
               {
-                "name": "DreamChest",
+                "name": "Blocks",
                 "children": []
               },
               {
-                "name": "DreamUpgrades",
-                "children": [
-                  {
-                    "name": "DreamUpgradeProcedures",
-                    "children": []
-                  }
-                ]
+                "name": "Items",
+                "children": []
               }
             ]
           },
           {
             "name": "recipes",
             "children": []
+          },
+          {
+            "name": "Dimensions",
+            "children": [
+              {
+                "name": "TheHub",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "DreamUpgrades",
+            "children": [
+              {
+                "name": "DreamUpgradeProcedures",
+                "children": []
+              }
+            ]
           }
         ]
       },

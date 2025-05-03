@@ -19,5 +19,12 @@
     "mod_root_advancement_0": {
       "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "tames_dreams:wood_unpack",
+      "tames_dreams:dream_catcher_recipe"
+    ]
   }
 }

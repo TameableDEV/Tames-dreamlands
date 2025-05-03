@@ -20,7 +20,7 @@ import java.util.List;
 
 public class DreamChestTier1Item extends Item {
 	public DreamChestTier1Item() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

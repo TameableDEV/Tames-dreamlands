@@ -18,11 +18,6 @@ public class DreamUpgradeResetProcedureProcedure {
 			return;
 		{
 			TamesDreamsModVariables.PlayerVariables _vars = entity.getData(TamesDreamsModVariables.PLAYER_VARIABLES);
-			_vars.DCupgradetier = 0;
-			_vars.syncPlayerVariables(entity);
-		}
-		{
-			TamesDreamsModVariables.PlayerVariables _vars = entity.getData(TamesDreamsModVariables.PLAYER_VARIABLES);
 			_vars.DreamFoodUpgrade = false;
 			_vars.syncPlayerVariables(entity);
 		}

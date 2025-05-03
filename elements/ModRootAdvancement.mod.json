@@ -13,7 +13,10 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "WoodUnpack",
+      "DreamCatcherRecipe"
+    ],
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {

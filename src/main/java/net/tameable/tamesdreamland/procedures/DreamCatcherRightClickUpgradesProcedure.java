@@ -16,19 +16,6 @@ public class DreamCatcherRightClickUpgradesProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == TamesDreamsModItems.DREAM_CATCHER.get()) {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A78\u00A7o \u00A7r\u00A76\u00A7l[Dream] \u00A7r\u00A78\u00A7oUpgrades:"), false);
-			if (entity.getData(TamesDreamsModVariables.PLAYER_VARIABLES).DCupgradetier == 0) {
-				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("\u00A7f\u00A7l\u00A7oChest Tier: Default"), false);
-			} else if (entity.getData(TamesDreamsModVariables.PLAYER_VARIABLES).DCupgradetier == 1) {
-				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("\u00A7a\u00A7l\u00A7oChest Tier: 1"), false);
-			} else if (entity.getData(TamesDreamsModVariables.PLAYER_VARIABLES).DCupgradetier == 2) {
-				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("\u00A7b\u00A7l\u00A7oChest Tier: 2"), false);
-			} else if (entity.getData(TamesDreamsModVariables.PLAYER_VARIABLES).DCupgradetier == 3) {
-				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("\u00A7c\u00A7l\u00A7oChest Tier: 3"), false);
-			}
 			if (entity.getData(TamesDreamsModVariables.PLAYER_VARIABLES).DreamFoodUpgrade == false) {
 				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("\u00A74\u00A7l\u00A7oThe \u00A7r\u00A75\u00A7l\u00A7o[Food Upgrade]\u00A7r\u00A74\u00A7l\u00A7o is not installed!"), false);

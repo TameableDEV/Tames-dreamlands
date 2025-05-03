@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tames_dreams:block/dreamanchor_bottom",
+    "up": "tames_dreams:block/dreamanchor_top",
+    "north": "tames_dreams:block/dreamanchor_skills",
+    "east": "tames_dreams:block/dreamanchor_inventory",
+    "south": "tames_dreams:block/dreamanchor_settings",
+    "west": "tames_dreams:block/dreamanchor_tiers",
+    "particle": "tames_dreams:block/dreamanchor_bottom"
+  },
+  "render_type": "solid"
+}
