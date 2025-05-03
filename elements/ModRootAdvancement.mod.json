@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Tame's HodgePodge",
-    "achievementDescription": "The Humble Beginnings to this mod, with many things to find... always check advancements if your stuck!",
+    "achievementName": "Tameable Presents: The Dream Lands",
+    "achievementDescription": "Your Beginnings to a world unexplored... §8§l§oAlways check the Advancements to see what to do next!",
     "achievementIcon": {
-      "value": "Items.BUNDLE"
+      "value": "Blocks.RED_BED"
     },
     "background": "Default",
     "disableDisplay": false,

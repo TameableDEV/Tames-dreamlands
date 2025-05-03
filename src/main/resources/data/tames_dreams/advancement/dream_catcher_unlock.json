@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "dream_catcher_unlock_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "tames_dreams:dream_catcher_recipe"
+    ]
+  }
+}

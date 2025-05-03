@@ -3,25 +3,25 @@ loaderVersion="[4,)"
 license="MIT License"
 
 [[mods]]
-modId="tames_hodpod"
+modId="tames_dreams"
 version="0.1"
-displayName="Tame's HodgePodge"
+displayName="The Dream lands"
 displayURL="https://mcreator.net"
 credits="Made with love and Care as well help from MCreator - https://mcreator.net/about"
 authors="Tameable, MCreator"
-description="A Mod Made by Tameable, in this mod there is a hodgepodge of changes and additions to your Minecraft Gameplay! There is no General Theme, but Sometimes things from this mod may be added to my future mods!"
+description="Explore a new type of land... your dreams and master the power of your dreams."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.tames_hodpod]]
+[[dependencies.tames_dreams]]
 modId="neoforge"
 type="required"
 versionRange="[21.1.65,)"
 ordering="AFTER"
 side="BOTH"
 
-[[dependencies.tames_hodpod]]
+[[dependencies.tames_dreams]]
 modId="minecraft"
 type="required"
 versionRange="[1.21.1]"
@@ -32,7 +32,7 @@ side="BOTH"
 
 
 [[mixins]]
-    config="mixins.tames_hodpod.json"
+    config="mixins.tames_dreams.json"
 
 # Start of user code block dependencies configuration
 # End of user code block dependencies configuration
